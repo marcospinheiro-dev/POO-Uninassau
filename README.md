@@ -3,7 +3,7 @@ Troabalho sobre os pilares de POO
 
 
 
-#Herança
+# Herança
 Ao olharmos no dicionário o conceito de herança, encontramos o seguinte:
 “Conjunto de caracteres hereditários transmitidos pelos genes. Bem, direito ou obrigação transmitidos por disposição testamentária ou por via de sucessão.”
 Como mencionei anteriormente, todas as pessoas herdam a aparência dos pais e as ações da espécie humana, como respirar e dormir. Trazendo para o contexto da programação, as classes podem herdar atributos e funções de outras classes.
@@ -36,7 +36,7 @@ class Pinscher extends Cachorro {
 Repare que essa relação é apenas de uma via. Sub Classes só podem acessar características e comportamentos de Super Classes, mas o contrário não é verdadeiro. Uma Super Classe não tem acesso a características e comportamentos de uma Sub Classe.
 É graças a esse pilar que podemos fazer reuso de código, porque não precisamos reescrever o mesmo comportamento em diferentes classes. 
 
-#Polimorfismo
+# Polimorfismo
 Com o polimorfismo espera-se que ao receber entradas de tipos diferentes, uma mesma ação possa ser executada de formas diferentes. Veja o exemplo:
 
 class Impressora {
@@ -111,7 +111,7 @@ Nesse exemplo, a função dirigir recebe objetos de tipos diferentes, executa um
 
 
 
-#Abstração
+# Abstração
 Quando buscamos o significado de abstração no dicionário, uma das definições que encontramos é a seguinte:
 “Ação de abstrair, de analisar isoladamente um aspecto, contido num todo, sem ter em consideração sua relação com a realidade.”
 Com esse pilar uma classe deve expor para outras classes apenas a ideia geral de uma propriedade ou funcionalidade, sem entrar nos detalhes. Por exemplo, um liquidificador possui 3 velocidades. Nós não sabemos como a velocidade da hélice é calculada, nem como internamente o apertar de um botão faz ela rodar, mas sabemos que ao apertar um botão a hélice irá girar de acordo com a velocidade escolhida.
@@ -143,7 +143,7 @@ O resto do código permanece o mesmo
 
 
 
-#Encapsulamento
+# Encapsulamento
 O objetivo desse pilar é restringir a visibilidade e modificação de atributos e de acesso a comportamentos baseado em algumas regras definidas em código.
 Para entender melhor essas restrições, considere o painel de um carro. Para o motorista, basta girar a chave que o painel acenderá e lá estarão as informações. No entanto, existe uma série de mecanismos envolvidos nessa operação. O painel não sabe qual o nível da água nem o nível da gasolina, ele apenas recebe esses dados e apresenta para o motorista.
 Nesse exemplo, podemos ver que o painel do carro esconde o seu funcionamento interno dos usuários. Mas, em alguns casos, o próprio código esconde propriedades e/ou comportamentos do sistema como um todo. O painel do carro, sabe quanto de gasolina o carro ainda tem, mas não sabe como a gasolina é injetada no motor.
