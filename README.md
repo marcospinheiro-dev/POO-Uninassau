@@ -1,5 +1,5 @@
 # POO-Uninassau
-Troabalho sobre os pilares de POO
+Trabalho sobre os pilares de POO
 
 
 
